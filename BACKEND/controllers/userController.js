@@ -1,7 +1,8 @@
 import { catchAsyncErrors } from "../middlewares/catchAsyncError.js";
-import { User } from "../models/userSchema.js";
+import { User } from "../models/UserSchema.js";
 import ErrorHandler from "../middlewares/error.js";
 import { sendToken } from "../utils/jwtToken.js";
+import { Job } from "../models/jobSchema.js";
 
 export const register = catchAsyncErrors(async (req, res, next) => {
   const { name, email, phone, password, role } = req.body;
@@ -64,6 +65,5 @@ export const getUser = catchAsyncErrors((req, res, next) => {
     user,
   });
 });
-
 
 

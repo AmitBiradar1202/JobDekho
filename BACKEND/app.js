@@ -19,7 +19,7 @@ app.use(cors({
     credentails:true
 })
 );
-
+                             
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));//uses to convert stringify to json

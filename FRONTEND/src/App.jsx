@@ -12,7 +12,7 @@ import Navbar from "./components/Layout/Navbar";
 import Footer from "./components/Layout/Footer";
 import Home from "./components/Home/Home";
 import AllJobs from "./components/Job/AllJobs";
-import JobDetails from "./components/Job/JobDetails";
+import SingleJobDetails from "./components/Job/SingleJobDetails";
 import Application from "./components/Application/Application";
 import MyApplications from "./components/Application/MyApplicationcd";
 import PostJob from "./components/Job/PostJob";
@@ -48,7 +48,7 @@ const App = () => {
           <Route path="/register" element={<Register />} />
           <Route path="/" element={<Home />} />
           <Route path="/job/getall" element={<AllJobs />} />
-          <Route path="/job/:id" element={<JobDetails />} />
+          <Route path="/job/:id" element={<SingleJobDetails />} />
           <Route path="/application/:id" element={<Application />} />
           <Route path="/applications/me" element={<MyApplications />} />
           <Route path="/job/post" element={<PostJob />} />

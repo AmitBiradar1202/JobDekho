@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Context } from "../../main";
 import { Link } from "react-router-dom";
-import { FaFacebookF, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 
 const Footer = () => {
@@ -10,16 +10,16 @@ const Footer = () => {
     <footer className={isAuthorized ? "footerShow" : "footerHide"}>
       <div>&copy; All Rights Reserved By CodeWithZeeshu.</div>
       <div>
-        <Link to={"https://www.facebook.com/profile.php?id=100030535123397"} target="_blank">
-          <FaFacebookF />
+        <Link to={"https://github.com/AmitBiradar1202"} target="_blank">
+          <FaGithub />
         </Link>
-        <Link to={"https://www.youtube.com/@CodeWithZeeshu"} target="_blank">
+        <Link to={"https://youtube.com/@AMIT-vm8hv?si=mrUQmQoVMWluPnJt"} target="_blank">
           <FaYoutube />
         </Link>
-        <Link to={"https://www.youtube.com/@CodeWithZeeshu"} target="_blank">
+        <Link to={"https://www.linkedin.com/in/amit-biradar-100b62237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} target="_blank">
           <FaLinkedin />
         </Link>
-        <Link to={"https://www.instagram.com/z_4_zeeshuuu/"} target="_blank">
+        <Link to={"https://www.instagram.com/amittt.72/"} target="_blank">
           <RiInstagramFill />
         </Link>
       </div>

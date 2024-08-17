@@ -14,7 +14,7 @@ import Home from "./components/Home/Home";
 import AllJobs from "./components/Job/AllJobs";
 import SingleJobDetails from "./components/Job/SingleJobDetails";
 import Application from "./components/Application/Application";
-import MyApplications from "./components/Application/MyApplicationcd";
+import MyApplications from "./components/Application/MyApplication";
 import PostJob from "./components/Job/PostJob";
 import Errors from "./components/NotFound/Errors";
 import MyJobs from "./components/Job/MyJobs";
